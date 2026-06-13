@@ -1,36 +1,144 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎓 Premium School Landing Page
 
-## Getting Started
+A modern, fully responsive school landing page built using the latest Next.js ecosystem. This project focuses on premium UI/UX, smooth animations, accessibility, performance optimization, and scalable component architecture.
 
-First, run the development server:
+---
+
+## 🌐 Project Preview
+
+### Desktop View
+
+![Desktop Preview](./public/screenshots/desktop-preview.png)
+
+### Mobile View
+
+![Mobile Preview](./public/screenshots/mobile-preview.png)
+
+> Screenshots will be added after capturing the final UI.
+
+---
+
+## ✨ Features
+
+- 🎨 Modern premium UI with glassmorphism and gradient design system
+- 📱 Fully responsive layout (mobile, tablet, desktop)
+- ⚡ Smooth animations using Framer Motion
+- 🧩 Component-based architecture with Next.js App Router
+- 🔢 Animated statistics counters
+- 🎯 Interactive navigation and mobile drawer
+- 🖼️ Optimized images using Next.js `Image` component
+- ♿ Accessibility support including reduced-motion preferences
+- 🚀 Production-ready optimized build
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| Next.js 16 | React framework and App Router |
+| React 19 | UI library |
+| TypeScript | Type safety |
+| Tailwind CSS v4 | Styling and design system |
+| Framer Motion | Animations and transitions |
+| Next Image | Image optimization |
+| ESLint | Code quality |
+
+---
+
+## 🏗️ Project Architecture
+
+```
+app/
+│
+├── _components/
+│   ├── layout/
+│   │   ├── Header.tsx
+│   │   ├── Footer.tsx
+│   │   └── MobileNav.tsx
+│   │
+│   ├── sections/
+│   │   ├── HeroSection.tsx
+│   │   ├── LeadershipSection.tsx
+│   │   ├── AnnouncementsSection.tsx
+│   │   ├── StatsSection.tsx
+│   │   ├── AboutSection.tsx
+│   │   ├── FeaturesSection.tsx
+│   │   └── ValuesSection.tsx
+│   │
+│   └── ui/
+│
+├── layout.tsx
+├── page.tsx
+└── globals.css
+```
+
+---
+
+## 🎨 Design Highlights
+
+- Custom design tokens using Tailwind CSS v4
+- Indigo-based premium color palette
+- Glassmorphism UI components
+- Gradient text effects
+- Smooth scroll-triggered animations
+- Responsive typography system
+
+---
+
+## ⚙️ Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/aryanParth-afk/premium-school-landing-page.git
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Run development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📈 Performance & Optimization
 
-To learn more about Next.js, take a look at the following resources:
+- Server Components used wherever possible
+- Client Components limited to interactive elements
+- GPU accelerated animations using transform and opacity
+- Responsive image loading
+- Reduced JavaScript bundle size
+- Accessibility-first motion handling
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🧠 Development Journey
 
-## Deploy on Vercel
+This project was developed as a deep exploration of modern frontend engineering practices including:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Next.js 16 App Router architecture
+- React 19 component patterns
+- Advanced Tailwind CSS v4 styling
+- Framer Motion animation workflows
+- Responsive design principles
+- Accessibility and performance optimization
+- Professional Git and GitHub workflow
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📄 License
+
+This project is created for educational and portfolio purposes.
